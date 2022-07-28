@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar=findViewById(R.id.toolbar);
         TextView title=toolbar.findViewById(R.id.toolbartitle);
         ImageButton back=toolbar.findViewById(R.id.back);
-        title.setText("Cardiac Recorder");
+        title.setText("Cardic Records");
         back.setVisibility(View.GONE);
     }
 
@@ -250,10 +250,12 @@ public class MainActivity extends AppCompatActivity {
         Recorditem record=new Recorditem( id,heartbeat,systolicpressure,diastolicpressure,status,date,time,comnt);
         recorditems.add(record);
         recordAdapter.notifyDataSetChanged();
+
        databaseReference.child(id).setValue(record);
+
+
         return true;
     }
-
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
