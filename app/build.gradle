@@ -41,6 +41,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     implementation 'com.google.firebase:firebase-auth:19.2.0'
     implementation 'com.google.firebase:firebase-database:20.0.5'
+    implementation fileTree(dir: 'E:\\3.1\\android jar', include: ['*.aar', '*.jar'], exclude: [])
+    implementation files('E:\\3.1\\android\\android.jar')
 
 
     testImplementation 'junit:junit:4.13.2'
