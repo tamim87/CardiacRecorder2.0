@@ -1,9 +1,12 @@
 # Cardiac Recorder
 
 * Splash Screen
+* 
 ![1](https://user-images.githubusercontent.com/86661703/181596979-659110cf-da82-4e79-9d17-dbe279a423ba.jpg)
 
+
 * Home Page
+
 
 ![2](https://user-images.githubusercontent.com/86661703/181597220-daae0fe1-a20b-48ee-ad51-70a16df54277.jpg)
 
