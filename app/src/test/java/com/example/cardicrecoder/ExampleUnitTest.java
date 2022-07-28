@@ -30,5 +30,11 @@ public class ExampleUnitTest {
         assertTrue(recorditems.contains(record));
     }
 
+    @Test public voidtestdelete()
+    {
+
+        
+    }
+
 }
 
