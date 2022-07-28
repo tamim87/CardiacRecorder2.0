@@ -7,9 +7,9 @@
     tools:context=".MainActivity"
     android:background="@color/black">
 
-<include
-    android:id="@+id/toolbarmain"
-    layout="@layout/toolbar"/>
+    <include
+        android:id="@+id/toolbarmain"
+        layout="@layout/toolbar" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_main"
@@ -28,7 +28,8 @@
         android:id="@+id/recylerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbarmain">
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="6dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
