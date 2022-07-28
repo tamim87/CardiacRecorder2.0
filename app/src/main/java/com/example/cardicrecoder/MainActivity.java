@@ -124,6 +124,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * this method set the title of toolbar
+     */
     private void setToolbar() {
         toolbar=findViewById(R.id.toolbar);
         TextView title=toolbar.findViewById(R.id.toolbartitle);
@@ -161,6 +164,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 */
+
+    /**
+     * this method shows the dialog box to take input
+     */
     private void showDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = LayoutInflater.from(this).inflate(R.layout.datainput_dialolog, null);
@@ -188,6 +195,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * this method add record to arraylist and database
+     * @return
+     */
     private boolean addrecord() {
          heartbeat = heart_beat.getText().toString();
          systolicpressure = systolic_pressure.getText().toString();
@@ -268,6 +279,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 
+    /**
+     * this method shows dialog box for update
+     * @param position
+     */
     private void updateshowdialog(int position) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -302,6 +317,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * this method update records
+     * @param position
+     * @return
+     */
     private boolean updaterecord(int position) {
         String heartbeat_d=heart_beat_d.getText().toString();
         String systolicpressure_d=systolic_pressure_d.getText().toString();
@@ -376,7 +396,10 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
+    /**
+     * this method delete record
+     * @param position
+     */
     private void deleterecord(int position) {
         {
             DatabaseReference databaseReference1=databaseReference.child(recorditems.get(position).getId());
