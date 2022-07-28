@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecordActivity">
+
+    <include
+        android:id="@+id/toolbarrecord"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Status"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/status_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingTop="12dp"
+            android:paddingLeft="8dp"
+            android:text="Normal Pressure"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="6dp"
+            android:background="#616161" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Heat Beat per minute"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/hbm_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="12dp"
+            android:text="120"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Systolic Pressure"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/systolic_pressure_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingTop="12dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:text="140 mmHg"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Diastolic Pressure"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/diastolic_pressure_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingTop="12dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:text="80 mmHg"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Date"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/date_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="8dp"
+            android:text="9-jan-2022"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Time"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/time_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="12dp"
+            android:text="10:30 PM"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Comment"
+            android:textColor="@color/lignt_green"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/comment_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="12dp"
+            android:text="after dinner"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#616161" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

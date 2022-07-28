@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012945948890",
+    "project_id": "cardicrecoder",
+    "storage_bucket": "cardicrecoder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012945948890:android:17f25cf3460d135020d5e3",
+        "android_client_info": {
+          "package_name": "com.example.cardicrecoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012945948890-hmmtup4d91uucog54q8mk3g060akng8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrQq2J8vR2STXokiX9MAZKZPo-gLu8d84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012945948890-hmmtup4d91uucog54q8mk3g060akng8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
