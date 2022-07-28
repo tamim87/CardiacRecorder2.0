@@ -57,7 +57,7 @@ public class RecordAdapter extends RecyclerView.Adapter<RecordAdapter.recordview
         @Override
         public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
             contextMenu.add(getAdapterPosition(),0,0,"Edit");
-            contextMenu.add(getAdapterPosition(),1,0,"Delete");
+            contextMenu.add(getAdapterPosition(),1,0,"Delate");
         }
     }
 
