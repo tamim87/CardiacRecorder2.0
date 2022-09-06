@@ -2,8 +2,7 @@
 
     Cardiac Recorder tracks blood pressure and heart rate data.
 
-![error showing image](https://github.com/tamim87/CardiacRecorder2.0/blob/main/images/ui_mockup_final/ui_mockup_final.gif "UI Design Mockup")
-
+<img src="https://github.com/tamim87/CardiacRecorder2.0/blob/main/images/ui_mockup_final/ui_mockup_final.gif" width="34%" alt="error showing image" title="UI Design Mockup">
 
 # Functionality
 * <b>Show a list of recorded measurements.</b>
